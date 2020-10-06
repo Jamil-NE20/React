@@ -1,3 +1,21 @@
+
+.Warper {
+  display: inline-block;
+  position: relative;
+}
+
+.Warper.sliderImg {
+  max-height: 400px;
+}
+
+.Warper.slider-button {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 150px;
+  height: 150px;
+}
+
 .App {
   text-align: center;
 }
